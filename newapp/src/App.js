@@ -1,6 +1,6 @@
 import './App.css';
 import React from 'react';
-import WelcomeF from './components/WelcomeF';
+import WelcomeF from './components/WelcomeF/WelcomeF';
 import WelcomeC from './components/WelcomeC/WelcomeC';
 import WelcomeArr from './components/WelcomeArr/WelcomeArr';
 
