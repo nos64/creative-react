@@ -8,7 +8,7 @@ const formStyle = {
     margin: 50,
     padding: 10,
     width: 500,
-    height: 100,
+    minHeight: 100,
     border: '1px solid #000',
     backgroundColor: 'black',
     color: 'white'
@@ -23,6 +23,7 @@ const formStyle = {
   },
 
   error: {
+    fontSize: 10,
     color: 'red',
     margin: 5
   }

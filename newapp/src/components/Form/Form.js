@@ -46,7 +46,6 @@ export default class Form extends React.Component {
     lastName: event.target.value
   });
 
-
   render () {
 
     const { firstNameError, firstName, lastName, lastNameError } = this.state;
@@ -58,7 +57,7 @@ export default class Form extends React.Component {
             First name:
             <input
             style={formStyle.input}
-             type="text" name="firstName" 
+            type="text" name="firstName" 
             onChange={this.onFirstNameChange} 
             onBlur={this.onFirstNameBlur}
             />
